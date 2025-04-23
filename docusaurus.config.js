@@ -23,6 +23,14 @@ const config = {
   presets: [
     [
       'classic',
+    /** @type {import('@docusaurus/preset-classic').Options} */
+    ({
+      docs: {
+        editUrl: undefined, // 👈 Esto desactiva "Edit this page"
+      },
+      // otros apartados como blog o pages...
+    }),
+      'classic',
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
