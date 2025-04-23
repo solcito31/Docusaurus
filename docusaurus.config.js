@@ -52,9 +52,20 @@ const config = {
   ],
 
   themeConfig: {
-    navbar: {
-      hideOnScroll: true, 
-      items: [] 
+    colorMode: {
+      defaultMode: 'dark',
+      disableSwitch: true,
+      respectPrefersColorScheme: false,
+    },
+    tableOfContents: {
+      minHeadingLevel: 6,
+      maxHeadingLevel: 6,
+    },
+    docs: {
+      sidebar: {
+        hideable: false,
+        autoCollapseCategories: true,
+      },
     },
   }
 };
