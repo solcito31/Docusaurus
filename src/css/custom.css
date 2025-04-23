@@ -1,0 +1,67 @@
+:root {
+  --ifm-color-primary: #23e08b;
+  --ifm-background-color: #0f1117;
+  --ifm-font-family-base: 'Inter', sans-serif;
+  --ifm-link-color: #23e08b;
+  --ifm-link-hover-color: #20c67e;
+}
+
+html[data-theme='dark'] {
+  --ifm-background-color: #0f1117;
+  --ifm-navbar-background-color: #1a1d23;
+  --ifm-sidebar-background: #14171f;
+  --ifm-color-content: #d9e1ec;
+  --ifm-heading-color: #ffffff;
+}
+
+.navbar {
+  box-shadow: none;
+}
+
+/* Sidebar Links */
+.menu__link {
+  display: flex;
+  align-items: center;
+  padding: 10px 15px;
+  border-radius: 8px;
+  transition: background 0.2s ease, color 0.2s ease;
+  font-weight: 500;
+}
+
+.menu__link:hover {
+  background-color: rgba(35, 224, 139, 0.1);
+  color: #23e08b;
+}
+
+/* Active Link Highlight */
+.menu__link--active {
+  background-color: rgba(35, 224, 139, 0.2);
+  color: #23e08b !important;
+}
+
+/* Headings */
+h1, h2, h3 {
+  font-weight: 600;
+  color: #ffffff;
+  margin-top: 1.5rem;
+}
+
+/* Paragraphs */
+p {
+  font-size: 1.05rem;
+  line-height: 1.7;
+  color: #d9e1ec;
+}
+
+/* Links */
+a {
+  transition: color 0.2s ease;
+}
+
+/* Cards or callouts (if any custom blocks later) */
+.card {
+  background-color: #1f222a;
+  border-radius: 12px;
+  padding: 1.5rem;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
