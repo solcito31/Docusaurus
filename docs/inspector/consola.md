@@ -1,9 +1,7 @@
 ---
-id: consola
-title: Consola
-sidebar_label: Consola
+id: inspector/consola
+title: 💻 Consola
 ---
 
-# ¿Cómo acceder?
+La consola es útil para ejecutar comandos JavaScript directamente.
 
-Haz clic derecho en cualquier parte de la web y selecciona **"Inspeccionar"**...

@@ -1,9 +1,7 @@
 ---
-id: elementos
-title: Elementos
-sidebar_label: Elementos
+id: inspector/elementos
+title: 📄 Elementos
 ---
 
-# ¿Cómo acceder?
+Aquí puedes ver la estructura HTML de una página y editarla temporalmente.
 
-Haz clic derecho en cualquier parte de la web y selecciona **"Inspeccionar"**...
