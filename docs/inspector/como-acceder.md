@@ -1,9 +1,13 @@
 ---
-id: como-acceder
-title: ¿Cómo acceder al Inspector?
-sidebar_label: ¿Cómo acceder?
+id: inspector/como-acceder
+title: ¿Cómo acceder?
 ---
 
-# ¿Cómo acceder?
+Para abrir el Inspector de elementos:
 
-Haz clic derecho en cualquier parte de la web y selecciona **"Inspeccionar"**...
+1. Haz **clic derecho** sobre cualquier parte de una página web.
+2. Selecciona la opción **"Inspeccionar"** o **"Inspect"**.
+3. También puedes presionar la tecla `F12` o `Ctrl + Shift + I` (`Cmd + Option + I` en Mac).
+
+Se abrirá un panel con herramientas para analizar la estructura y funcionamiento del sitio.
+

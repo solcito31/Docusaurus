@@ -1,57 +1,18 @@
-/* Importa una fuente moderna de Google */
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+:root {
+  --ifm-color-primary: #c084fc;   /* Lila brillante */
+  --ifm-color-primary-dark: #a855f7;
+  --ifm-color-primary-darker: #9333ea;
+  --ifm-color-primary-light: #d8b4fe;
+  --ifm-color-primary-lighter: #ede9fe;
 
-/* Aplica estilos globales */
-body {
-  background-color: #f9f9f9;
-  font-family: 'Inter', sans-serif;
-  color: #333;
-  line-height: 1.6;
-  font-size: 16px;
+  --ifm-background-color: #fff0f6; /* Rosa muy suave de fondo */
 }
 
-/* Estilo para los títulos */
-h1, h2, h3 {
-  color: #111;
-  font-weight: 700;
+html[data-theme='light'] {
+  --ifm-background-color: #fff0f6;
 }
 
-/* Sidebar */
-.theme-doc-sidebar-container {
-  background-color: #ffffff;
-  border-right: 1px solid #eaeaea;
-}
-
-.menu__link {
-  color: #444;
-  padding: 8px 16px;
-  border-radius: 8px;
-  transition: background-color 0.2s ease;
-}
-
-.menu__link:hover {
-  background-color: #e0e0e0;
-}
-
-.menu__link--active {
-  background-color: #d0f0ff;
-  font-weight: 600;
-}
-
-/* Contenido */
-.markdown {
-  padding: 2rem;
-  max-width: 800px;
-  margin: 0 auto;
-  background-color: white;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
-  border-radius: 12px;
-}
-
-/* Código */
-code {
-  background-color: #eee;
-  color: #d6336c;
-  padding: 2px 4px;
-  border-radius: 4px;
+.navbar,
+.footer {
+  background-color: #f3e8ff; /* Fondo lila claro para navbar y pie de página */
 }
